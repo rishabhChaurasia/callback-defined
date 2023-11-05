@@ -1,0 +1,18 @@
+.container {
+  display: grid;
+  place-items: center;
+  margin-top: 10rem;
+}
+
+.parent {
+  background: #ffffffe4;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.child {
+  margin-top: 1rem;
+}
